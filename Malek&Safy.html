@@ -11,6 +11,8 @@
       align-items: center;
       height: 100vh;
       margin: 0;
+      background-color: rgb(255, 255, 255); /* Set background color to pink */
+      color: rgb(164, 30, 30); /* Set text color to red */
     }
     .container {
       text-align: center;
@@ -22,10 +24,25 @@
       max-width: 350px; /* Adjust the maximum width as needed */
       max-height: 350px; /* Adjust the maximum height as needed */
     }
-    .btn--yes,
+    .btn--yes {
+      font-size: 1.2em; /* Adjust the font size as needed */
+      margin: 10px; /* Add some margin between buttons */
+      background-color: green; /* Set background color of Yes button to green */
+      color: white; /* Set text color of Yes button to white */
+      border: none; /* Remove button border */
+      padding: 10px 20px; /* Add padding to the button */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      border-radius: 5px; /* Add border radius to the button */
+    }
     .btn--no {
       font-size: 1.2em; /* Adjust the font size as needed */
       margin: 10px; /* Add some margin between buttons */
+      background-color: red; /* Set background color of No button to red */
+      color: white; /* Set text color of No button to white */
+      border: none; /* Remove button border */
+      padding: 10px 20px; /* Add padding to the button */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      border-radius: 5px; /* Add border radius to the button */
     }
     .heart {
       position: absolute;
@@ -135,5 +152,4 @@
     }
   </script>
 </body>
-</html> 
-
+</html>
